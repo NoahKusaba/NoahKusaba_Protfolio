@@ -1,0 +1,336 @@
+*{
+  border:0;
+  padding:0;
+  font-family: Source Sans Pro,Helvetica,Arial,sans-serif;
+  font-size: 4vw;
+  font-weight:900;
+  user-select:none;
+  position:relative;
+}
+
+body, html{
+  background-image: url("/src/Images/Fuji1.jpg") ;  
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size:cover;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  height:100%;
+  width: 100%;
+  margin:0;
+  animation-name:slide;
+  animation-duration:35s;
+  animation-iteration-count: infinite;
+}
+                @keyframes slide{
+                  0%{ 
+                    background-image: url("/src/Images/Fuji1.jpg") ;   
+                    
+                  }
+                  50%{
+                    background-image: url("/src/Images/bar.jpg");
+
+                  }
+                  cover{
+                    background-image: url("/src/Images/cherry.jpg");
+                  }
+                }
+  .HomePage{
+    height:100vh;
+    max-height: 100%;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+    width:100%;
+    overflow-x:hidden;
+    overflow-y:hidden;
+  }
+    #instructions{
+      position:fixed;
+      top:0;
+      right:0;
+      text-align:right;
+
+    }
+    .iText{
+      font-size:1vw;
+      font-weight:100;
+    }
+    .Flexbox {
+      display:flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      width:10rem; /*SCALES WIDTH OF NEW PAGE */
+      }
+    
+    .deg90 {
+      transform:rotate(-90deg);
+      cursor: pointer;
+    }
+
+    .deg45{
+      transform:rotate(45deg);
+      cursor: pointer;
+    }
+    .degNeg45{
+      transform:rotate(-45deg);
+      cursor: pointer;
+    }
+    #about{
+      position:relative;
+      left:10vw;
+    }
+    #resume{
+      position:relative;
+      right:8vw;
+    }
+    #projects{
+      position:relative;
+      left:2vw;
+    }
+
+    #c{
+      position: relative;
+      right:13vw;
+    }
+
+    #experience{
+      position:relative; 
+      right:1vw;
+    }
+    #connect{
+      position: relative;
+      right:15vw;
+      top:4.5vw;
+    }
+    #contact{
+      position: relative;
+      right:15vw;
+      top:-4.5vw;
+    }
+
+    .shake:hover{
+      animation-name: shaking;
+      animation-duration: 0.5s;
+      }
+      
+      @keyframes shaking{
+        0%{
+      transform:translateX(0px)
+        }
+        25%{
+      transform:translateX(25px)
+        }
+          50%{
+      transform:translateX(-25px)
+        }
+          100%{
+      transform:translateX(0px)
+        }
+      }
+    /* ************/
+.BorderPage{
+    box-sizing:border-box;
+    border-radius:20px;
+    background-color:#e5e7eb;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:400;
+    height:80vh;
+  
+    width:80vw;
+    min-width: 30vw;
+    }
+
+  .next, .prev{
+    cursor:pointer;
+    position:absolute;
+    font-size:80%;
+    top:50%;
+    width:auto;
+    opacity:60%;
+  }
+  
+  .next{
+    right:10px
+  }
+
+/* *****************/
+/* Sub Pages */
+
+
+.sliderImage{
+  display:flex;
+  flex-direction: row;
+  width:100%;
+  height:100%;
+  }
+
+  .FlexPage{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    top:25px;
+    }
+    .hiddenPage {
+        display:none;
+      }  
+    .pageTitle{
+      white-space: nowrap;
+      text-decoration:underline;
+      align-self:flex-start;
+      text-indent:0.5em;
+      font-size: 1.5vw;
+      font-family: ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif
+    }
+
+    .textBorder {
+  
+      box-sizing:border-box;
+      width:95%;
+      border: 1px solid black;
+      font-size:clamp(10px,1vw,100px);
+      font-weight: 200;
+      }
+
+      img{
+        border-radius: 10px;  
+        width:50%; 
+        height:35%;
+          
+        }  
+      .bodyText{
+        font-size:clamp(10px,1.2vw,100px);
+        font-weight: 200;
+        margin-left:1em;
+      }
+      #centeredText{
+        font-style:italic;
+       text-align:center;
+       margin:0;
+      }
+      ul{
+        margin:0;
+      }
+        li{
+          font-size:inherit;
+          margin-left:1.5em;
+        }
+      .center{
+        text-align:center;
+        margin:0;
+        font-weight: 100;
+        font-style:oblique;
+      }
+      #email{
+        font-size: 0.5em;
+      }
+      .emailText{
+        font-size:0.6em;
+      }
+
+
+#resumeBorder{
+position:fixed;
+margin:0;
+text-align:center;
+
+
+background-color: aquamarine;
+opacity:0.6;
+display:flex;
+justify-content: center;
+align-items:center;
+
+}
+
+embed{
+position:fixed;
+margin:0;
+top: 5vh;
+left:5vw;
+z-index: 999;
+width:90vw;
+height:90vh;
+opacity:none;
+}
+
+#queens{
+  border-radius:0%;
+  align-self:center;
+  height: 15vh;
+  width:60%;
+  content:url("./Images/Queens.png");
+}
+
+
+#mail{
+  content:url("./Images/mail.png");
+}
+#Passport{
+  content:url("./Images/Passport_Final.png");
+  border-radius: 50%;
+  width: 30%;
+  height:11vw;
+}
+
+#aShariff{
+  content:url("./Images/allenShariff.jpg")
+}
+
+#snapcab{
+  content:url("./Images/snap.jpg")
+}
+#controlIO {
+  animation-name:controls;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  content:url("./Images/3D_Gearbox.jpg");
+  animation-timing-function: linear;
+}
+@keyframes controls{ 
+  0%{
+    content:url("./Images/assembler.jpg");
+  
+  }
+  100%{
+    content:url("./Images/controlIO.jpg");
+  }
+}
+
+
+#gearbox{
+  animation-name:gears;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+  content:url("./Images/3D_Gearbox.jpg");
+  animation-timing-function: linear;
+}
+
+@keyframes gears{
+  0%{
+    content:url("./Images/gearbox.jpg");
+  }
+
+  50%{
+    content:url("./Images/gearbox1.jpg");
+  }
+
+  100%{
+    content:url("./Images/3D_Gearbox.jpg");
+  }
+}
+
+
+
+
+
+
+
+
+
+

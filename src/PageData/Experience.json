@@ -1,0 +1,19 @@
+[
+{
+    "title":"Allen & Shariff: Mechanical Designer",
+    "imageID":"aShariff",
+    "list":["Designed plumbing and HVAC systems for commercial and residential buildings per state and federal building code.", 
+    "Drafted layouts using Revit & autoCAD.", 
+    "Sized heating loads of respective zones using Trace3D"],
+    "hiddenPage":""
+},
+{
+    "title":"Snapcab: Mechanical Engineer",
+    "imageID":"snapcab",
+    "list":["Designed models & drawings for custom products using Autodesk Inventor CAD.",
+    "Submitted bids to government RFP's closing contracts over $100k.",
+    "Coordinated with vendors to ensure sufficient stock is available to fulfill job schedule."],
+    "hiddenPage":"hiddenPage"
+}
+
+]

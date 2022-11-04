@@ -1,0 +1,17 @@
+[
+    {
+        "title":"Project: Gearbox",
+        "imageID":"gearbox",
+        "list":["Designed a gearbox for a car in a hill climb and speed, class competition.", "Gear ratios were optimized for performance, and components sized through stress analysis to minimize weight.", "Personally took responsibility of modeling each component and assembling in Siemens NX CAD." 
+        ],
+        "hiddenPage":""
+    },
+    {
+        "title":"Project: Assembly Line",
+        "imageID":"controlIO",
+        "list":["Programed a manufacturing environment to assemble products using function block diagrams in Control I/O from the preinstalled scenes demonstrated on the company website: 'https://lnkd.in/gvrxdiE' "
+        ],
+        "hiddenPage":"hiddenPage"
+    }
+    
+]
