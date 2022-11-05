@@ -106,7 +106,7 @@ useEffect(()=> {
 
         {!currentPage ? null :<div className='BorderPage' ref={wrapper}>
           {showPage()}
-          <a href = "/#" #className ="prev" onClick={() => setSlide(currentSlide -1 )}>&#10094;</a>
+          <a href = "/#" className ="prev" onClick={() => setSlide(currentSlide -1 )}>&#10094;</a>
           <a href = "/#" className="next" onClick={() => setSlide(currentSlide +1 )}>&#10095;</a>
           </div>}
        
