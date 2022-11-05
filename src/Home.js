@@ -59,7 +59,7 @@ const outsideClickClose = useCallback((event) => {
     setPage("") ;
     setSlide(0);
   }
-})
+},[])
 
 
 const escClose = useCallback((event) =>{ 
