@@ -28,7 +28,7 @@ const changeSlide = useCallback(()=> {
 let slides = document.getElementsByClassName("FlexPage");
 let slideQ = slides.length;
 // only executing if valid window, & more than 1 page. 
-if(!wrapper || slideQ == 1 || slideQ == 0){
+if(!wrapper || slideQ === 1 || slideQ === 0){
   return;
 }
 // hide pages & show relevant page. 
