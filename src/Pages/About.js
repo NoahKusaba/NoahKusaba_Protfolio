@@ -3,7 +3,7 @@ export default function about(){
     return (
         <div className="sliderImage"> 
             <div className="FlexPage">
-                <img alt="picture" id ="Passport"/>
+                <img alt="Passport" id ="Passport"/>
                 <div className="pageTitle">Noah S. Kusaba</div>
                 <div className="textBorder">
                     
@@ -15,7 +15,7 @@ export default function about(){
             </div>
 
             <div className="FlexPage hiddenPage">
-            <img  alt="picture" id ="queens"/>
+            <img  alt="queens" id ="queens"/>
                 <div className="pageTitle">Education</div>
 
                 <div className="textBorder">

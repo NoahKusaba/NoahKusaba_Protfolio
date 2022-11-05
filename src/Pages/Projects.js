@@ -11,7 +11,7 @@ export default function Projects(){
 
                 <div className={`FlexPage ${slide.hiddenPage}`} key={idx}>
              
-                    <img  alt="picture" id={slide.imageID}/>
+                    <img  alt="Projects" id={slide.imageID}/>
                     <div className="pageTitle">{slide.title}</div>
                     <ul  className="textBorder">
                     {slide.list.map((listElement,listIdx) => {

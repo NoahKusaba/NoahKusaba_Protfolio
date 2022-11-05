@@ -12,7 +12,7 @@ export default function experience(){
 
                 <div className={`FlexPage ${slide.hiddenPage}`} key={idx}>
              
-                    <img  alt="picture" id={slide.imageID}/>
+                    <img  alt="experience" id={slide.imageID}/>
                     <div className="pageTitle">{slide.title}</div>
                     <ul  className="textBorder">
                     {slide.list.map((listElement,listIdx) => {
