@@ -88,7 +88,7 @@ const showPage = () => {
 // this took an emberrasingly long time to figure out 
 useEffect(()=> { 
   changeSlide()
-},[currentSlide])
+},[currentSlide,changeSlide])
 
 
   return (
