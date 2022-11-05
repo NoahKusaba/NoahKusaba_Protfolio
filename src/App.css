@@ -132,6 +132,11 @@ body, html{
       transform:translateX(0px)
         }
       }
+
+      a{
+        text-decoration:none;
+        color:#585858;
+      }
     /* ************/
 .BorderPage{
     box-sizing:border-box;
@@ -227,10 +232,10 @@ body, html{
         font-style:oblique;
       }
       #email{
-        font-size: 0.5em;
+        font-size: 0.3em;
       }
       .emailText{
-        font-size:0.6em;
+        font-size:0.3em;
       }
 
 
