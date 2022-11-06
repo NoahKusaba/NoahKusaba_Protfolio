@@ -1,10 +1,17 @@
 [
     {
+        "title":"Project: Personal Portfolio",
+        "imageID":"website",
+        "list":["Designed website in React.js, css, html", "Deployed website on Netlify w/ Git for version control.", "github.com/NoahKusaba/NoahKusaba_Portfolio"],
+        "hiddenPage":""
+    },
+    
+    {
         "title":"Project: Gearbox",
         "imageID":"gearbox",
         "list":["Designed a gearbox for a car in a hill climb and speed, class competition.", "Gear ratios were optimized for performance, and components sized through stress analysis to minimize weight.", "Personally took responsibility of modeling each component and assembling in Siemens NX CAD." 
         ],
-        "hiddenPage":""
+        "hiddenPage":"hiddenPage"
     },
     {
         "title":"Project: Assembly Line",
