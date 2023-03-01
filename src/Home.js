@@ -1,6 +1,5 @@
 import './App.css';
 import React, {useState, useEffect, useCallback, useRef} from "react";
-
 import About from "./Pages/About.js" ;
 import Projects from "./Pages/Projects.js";
 import Resume from "./Pages/Resume.js";
@@ -61,7 +60,6 @@ const outsideClickClose = useCallback((event) => {
   }
 },[])
 
-
 const escClose = useCallback((event) =>{ 
   if (event.keyCode === 27) {
     setPage("");
@@ -89,15 +87,14 @@ const showPage = () => {
 useEffect(()=> { 
   changeSlide()
 },[currentSlide,changeSlide])
-
-
+  
   return (
     <>
       <div className="HomePage">
-      <div id="instructions">
-        <div className="iText">&#123;esc&#125;</div>
-        <div className="iText">&#123;outsideClick&#125;</div>
-      </div>
+        <div id="instructions">
+          <div className="iText">&#123;esc&#125;</div>
+          <div className="iText">&#123;outsideClick&#125;</div>
+        </div>
         <div className="Flexbox">
           <div className="deg90" id="about" onClick={()=>setPage("aboutPage")}><div className ="shake">ABOUT</div></div>
           <div className="deg45" id="projects" onClick={()=>setPage("projectsPage")}><div className="shake">PROJECTS</div></div>
@@ -117,10 +114,8 @@ useEffect(()=> {
             <div className="degNeg45" id="contact" onClick={()=>setPage("contactPage")}><div className="shake">ONTACT</div></div>
             <div className="deg45" id="connect" onClick={() => window.open("https://www.linkedin.com/in/noah-kusaba/") } ><div className="shake">ONNECT</div></div>
           </div>
-        </div>
-        
+        </div>  
       </div>
-      
     </>
   );
 
