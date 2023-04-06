@@ -86,7 +86,7 @@ body, html{
     }
     #resume{
       position:relative;
-      right:8vw;
+      right:6.5vw;
     }
     #projects{
       position:relative;
@@ -104,7 +104,7 @@ body, html{
     }
     #connect{
       position: relative;
-      right:15vw;
+      right:15.5vw;
       top:4.5vw;
     }
     #contact{
@@ -282,12 +282,14 @@ opacity:none;
 }
 
 #aShariff{
-  height:50%;
-  width:50%;
+  width:40%;
+  height:30%;
   content:url("./Images/allenShariff.jpg")
 }
 
 #snapcab{
+  width:40%;
+  height:30%;
   content:url("./Images/snap.jpg")
 }
 #controlIO {
