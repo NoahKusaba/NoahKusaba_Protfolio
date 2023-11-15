@@ -281,17 +281,24 @@ opacity:none;
   height:11vw;
 }
 
-#aShariff{
+#pastures{
   width:40%;
   height:30%;
-  content:url("./Images/allenShariff.jpg")
+  content:url("./Images/pastures.jpg")
 }
 
-#snapcab{
+#bearcog{
   width:40%;
   height:30%;
-  content:url("./Images/snap.jpg")
+  content:url("./Images/bearcog.jpg")
 }
+
+#overtone{
+  width:40%;
+  height:30%;
+  content:url("./Images/overtone.jpg")
+}
+
 #controlIO {
   animation-name:controls;
   animation-duration:5s;

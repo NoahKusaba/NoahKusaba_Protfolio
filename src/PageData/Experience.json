@@ -1,18 +1,30 @@
 [
 {
-    "title":"Allen & Shariff: Mechanical Designer",
-    "imageID":"aShariff",
-    "list":["Designed plumbing and HVAC systems for commercial and residential buildings per state and federal building code.", 
-    "Drafted layouts using Revit & autoCAD.", 
-    "Sized heating loads of respective zones using Trace3D"],
+    "title":"Green Pastures",
+    "imageID":"pastures",
+    "list":["Design & manage Shopify website, selling raw and roasted coffee beans imported from Nigeria & Peru.", 
+    "Developed a Tableau sales dashboard tracking business KPI's, which helped increase sales by 60 % in revenue. ", 
+    "Developed ETL data pipelines using Shopify API using Fivetran, DBT, Snowflake.",
+    " Automated supply chain management and sales load balancing through Python scripting and AWS deployments. "],
     "hiddenPage":""
 },
 {
-    "title":"Snapcab: Mechanical Engineer",
-    "imageID":"snapcab",
-    "list":["Designed models & drawings for custom products using Autodesk Inventor CAD.",
-    "Submitted bids to government RFP's closing contracts over $100k.",
-    "Coordinated with vendors to ensure sufficient stock is available to fulfill job schedule."],
+    "title":"Overtone AI",
+    "imageID":"overtone",
+    "list":["Developed ELT pipelines transforming audio news to text for use in ML models categorizing news segments",
+    "Develop Looker dashboards, providing analytics for prospective clients.",
+    "Google Cloud Platform Tools: Big Query, VM, Speech-to-Text API, Sentiment Analysis API."],
+    "hiddenPage":"hiddenPage"
+},
+{
+    "title":"Bear Cognition",
+    "imageID":"bearcog",
+    "list":["Automated a S3 to Snowflake data migration process, cutting storage costs by 50% and CPU costs by 60%.",
+    "Establish ETL data pipelines scripts with Python using Prefect workflow orchestration.",
+    "Manage and develop Kubernetes deployments on AWS EKS using Fargate pods.",
+    "Develop GraphQL API using Flask and Graphene with authentication token.",
+    "Miscellaneous data management & deployments using AWS, GC, Snowflake, Docker, DBT."
+    ],
     "hiddenPage":"hiddenPage"
 }
 ]
