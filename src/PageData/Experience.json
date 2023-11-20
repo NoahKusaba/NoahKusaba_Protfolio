@@ -1,13 +1,16 @@
 [
 {
-    "title":"Green Pastures",
-    "imageID":"pastures",
-    "list":["Design & manage Shopify website, selling raw and roasted coffee beans imported from Nigeria & Peru.", 
-    "Developed a Tableau sales dashboard tracking business KPI's, which helped increase sales by 60 % in revenue. ", 
-    "Developed ETL data pipelines using Shopify API using Fivetran, DBT, Snowflake.",
-    " Automated supply chain management and sales load balancing through Python scripting and AWS deployments. "],
+    "title":"Bear Cognition",
+    "imageID":"bearcog",
+    "list":["Automated a S3 to Snowflake data migration process, cutting storage costs by 50% and CPU costs by 60%.",
+    "Establish ETL data pipelines scripts with Python using Prefect workflow orchestration.",
+    "Manage and develop Kubernetes deployments on AWS EKS using Fargate pods.",
+    "Develop GraphQL API using Flask and Graphene with authentication token.",
+    "Miscellaneous data management & deployments using AWS, GC, Snowflake, Docker, DBT."
+    ],
     "hiddenPage":""
 },
+
 {
     "title":"Overtone AI",
     "imageID":"overtone",
@@ -17,14 +20,12 @@
     "hiddenPage":"hiddenPage"
 },
 {
-    "title":"Bear Cognition",
-    "imageID":"bearcog",
-    "list":["Automated a S3 to Snowflake data migration process, cutting storage costs by 50% and CPU costs by 60%.",
-    "Establish ETL data pipelines scripts with Python using Prefect workflow orchestration.",
-    "Manage and develop Kubernetes deployments on AWS EKS using Fargate pods.",
-    "Develop GraphQL API using Flask and Graphene with authentication token.",
-    "Miscellaneous data management & deployments using AWS, GC, Snowflake, Docker, DBT."
-    ],
-    "hiddenPage":"hiddenPage"
+    "title":"Green Pastures",
+    "imageID":"pastures",
+    "list":["Design & manage Shopify website, selling raw and roasted coffee beans imported from Nigeria & Peru.", 
+    "Developed a Tableau sales dashboard tracking business KPI's, which helped increase sales by 60 % in revenue. ", 
+    "Developed ETL data pipelines using Shopify API using Fivetran, DBT, Snowflake.",
+    " Automated supply chain management and sales load balancing through Python scripting and AWS deployments. "],
+    "hiddenPage":""
 }
 ]
