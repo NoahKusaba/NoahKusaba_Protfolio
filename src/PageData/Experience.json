@@ -26,6 +26,6 @@
     "Developed a Tableau sales dashboard tracking business KPI's, which helped increase sales by 60 % in revenue. ", 
     "Developed ETL data pipelines using Shopify API using Fivetran, DBT, Snowflake.",
     " Automated supply chain management and sales load balancing through Python scripting and AWS deployments. "],
-    "hiddenPage":""
+    "hiddenPage":"hiddenPage"
 }
 ]
